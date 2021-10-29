@@ -11,7 +11,9 @@ print(random.randrange(1, 13))
 # Question 5
 print(random.randrange(1, 21))
 # Question 6
-print(random.choices['cat', 'dog', 'sheep', 'cow', 'chicken', 'pig', 1])
+mylist = ['cat', 'dog', 'sheep', 'cow', 'chicken', 'pig']
+print(random.choice(mylist))
 # Question 7
-print(random.choices([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 1))
+list2 = ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],1)
+print(random.choices(list2))
 # Question 8
